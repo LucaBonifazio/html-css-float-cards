@@ -31,15 +31,17 @@ main{
 }
 
 .card{
-    background-color: rgb(24, 26, 75); 
+    background-color: rgb(15, 14, 23); 
     float: left;
     width: calc(33.3% - 2rem);
     margin: 1rem;
+    box-shadow: 5px 5px 5px grey;               
 }
 
 img{
     width: 100px;
     float: left;
+    margin-right: 25px;
 }
 
 .card-info{
@@ -60,4 +62,5 @@ img{
 .mail{
     text-decoration: none;
     color: aqua;
+    float:right;
 }

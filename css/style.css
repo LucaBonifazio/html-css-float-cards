@@ -27,27 +27,34 @@ main{
 }
 
 .container-cards{
-      
+      margin-bottom: 15px ;
 }
 
 .card{
-   
-}
-
-.card-text{
     background-color: rgb(24, 26, 75); 
+    float: left;
+    width: calc(33.3% - 2rem);
+    margin: 1rem;
 }
 
 img{
     width: 100px;
+    float: left;
+}
+
+.card-info{
+    padding: 5px;
+}
+
+.card-text{
+    color: white;
 }
 
 .name{
     font-size: large;
 }
+.work{
 
-.card-text{
-    color: white;
 }
 
 .mail{

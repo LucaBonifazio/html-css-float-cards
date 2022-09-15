@@ -5,7 +5,7 @@
 }
 
 html{
-    /* inserire font */
+    font-family: 'Secular One', sans-serif;
 }
 
 main{
@@ -16,9 +16,10 @@ main{
 }
 
 .main-title{
-    color: blueviolet;
+    color: rgb(223, 36, 211);
     text-align: center;
     margin-bottom: 40px;
+    font-size: 38px;
 }
 
 .title-text{
@@ -26,16 +27,12 @@ main{
     margin-bottom: 40px;
 }
 
-/* .container-cards{
-      margin-bottom: 15px ;
-} */
-
 .card{
-    background-color: rgb(15, 14, 23); 
+    background-color: rgb(15, 14, 23);
     float: left;
     width: calc(33.3% - 2rem);
     margin: 1rem;
-    box-shadow: 5px 5px 5px grey;               
+    box-shadow: 5px 5px 5px grey;
 }
 
 img{
@@ -45,7 +42,7 @@ img{
 }
 
 .card-info{
-    padding: 15px;
+    padding: 9px;
 }
 
 .card-text{
@@ -53,14 +50,16 @@ img{
 }
 
 .name{
-    font-size: 25px;
-    padding-bottom: 5px;
+    font-size: 20px;
+    margin-bottom: 6px;
 }
 .work{
-    padding-bottom: 5px;
+    font-size: 13px;
+    margin-bottom: 6px;
 }
 
 .mail{
     text-decoration: none;
-    color: aqua;
+    color: rgb(39, 163, 212);
+    font-size: 13px;
 }
